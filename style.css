@@ -1,0 +1,58 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+html {
+  background: #373f47;
+}
+
+body {
+  text-align: center;
+  font-size: 62.5%;
+  color: white;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+h2 .jscoloured {
+  color: var(--base);
+}
+
+img {
+  height: 400px;
+  margin-top: 2em;
+  padding: var(--spacing);
+  background-color: var(--base);
+  -webkit-filter: blur(var(--blur));
+          filter: blur(var(--blur));
+}
+
+.controls {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+/*# sourceMappingURL=style.css.map */
